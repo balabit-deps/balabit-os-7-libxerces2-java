@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+
+VERSION := 2.11.0
+
+%:
+	dh $@ --with maven-repo-helper --with javahelper
+
+override_dh_auto_build:
+	dh_auto_build -- jar sampjar javadocs
+
+override_dh_compress:
+	dh_compress -X.java
+
+override_dh_auto_clean:
+
+get-orig-source:
+	-uscan --download-current-version --force-download --rename --repack
+
+get-orig-pom:
+	wget -O debian/pom.xml http://repository.sonatype.org/service/local/repositories/central/content/xerces/xercesImpl/$(VERSION)/xercesImpl-$(VERSION).pom
+

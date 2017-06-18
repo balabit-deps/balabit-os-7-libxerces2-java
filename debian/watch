@@ -1,0 +1,2 @@
+version=3
+http://archive.apache.org/dist/xerces/j/source/ Xerces-J-src\.([\d+\.]+|\d+)\.tar\.gz debian uupdate
