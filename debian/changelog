@@ -34,7 +34,7 @@ libxerces2-java (2.11.0-6) unstable; urgency=low
   * Update links for libxml-commons-external-java 1.4 (Closes: #663913)
   * Bump Standards Version to 3.9.3 (no changes).
   * Build class files with source/target = 1.4 to ensure backwards
-    compatibility. Thanks to James Page. (Closes: #673177) 
+    compatibility. Thanks to James Page. (Closes: #673177)
 
  -- tony mancill <tmancill@debian.org>  Thu, 17 May 2012 21:38:27 -0700
 
@@ -72,7 +72,7 @@ libxerces2-java (2.11.0-2) unstable; urgency=low
   * Add myself as Uploaders.
   * Add Depends on libxml-commons-external-java for jaxp-1.4.jar
     (Closes: #639333).
-  * Drop Depends on libjaxp-1.3.jar. 
+  * Drop Depends on libjaxp-1.3.jar.
 
  -- Damien Raude-Morvan <drazzib@debian.org>  Sat, 27 Aug 2011 00:05:03 +0200
 
@@ -189,7 +189,7 @@ libxerces2-java (2.8.0-0) experimental; urgency=low
 
 libxerces2-java (2.6.2-4) unstable; urgency=low
 
-  * gnujaxp transition 
+  * gnujaxp transition
 
  -- Wolfgang Baer <WBaer@gmx.de>  Tue, 17 Jan 2006 21:50:14 +0100
 
@@ -205,18 +205,18 @@ libxerces2-java (2.6.2-3) unstable; urgency=low
 
 libxerces2-java (2.6.2-2) unstable; urgency=medium
 
-  * Included DOM Level 2 sources from the libjaxp1.2-java 
+  * Included DOM Level 2 sources from the libjaxp1.2-java
     source package to built against them (closes: #304524)
     Note: This is a temporary solution - after sarge we will update
     ant which includes bootclasspath support for jikes need to build
     without included sources.
   * Included README.dom2-sources explaining where the DOM Level 2 sources
     come from, why they are needed ...
-  * Included build.xml patch to copy the DOM Level 2 sources from the 
+  * Included build.xml patch to copy the DOM Level 2 sources from the
     debian directory - before the build - to the build directory.
   * Changed Build-Depends to Build-Depends-Indep to fix lintian warning.
   * (avdyk) Added Wolfgang to the uploaders.
-  
+
  -- Wolfgang Baer <WBaer@gmx.de>  Tue, 19 Apr 2005 20:28:25 +0200
 
 libxerces2-java (2.6.2-1) unstable; urgency=low
@@ -338,7 +338,7 @@ xerces2-j (2.0.1-1) unstable; urgency=low
 xerces2-j (2.0.0-1) unstable; urgency=low
 
   * Initial release
-  * Placed in contrib because it requires Ant and a Java2 environment 
+  * Placed in contrib because it requires Ant and a Java2 environment
     to build
 
  -- Stefan Gybas <sgybas@debian.org>  Thu,  7 Feb 2002 16:37:15 +0100
