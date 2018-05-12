@@ -10,7 +10,7 @@ Uploaders:
  Emmanuel Bourg <ebourg@apache.org>
 Build-Depends:
  ant,
- debhelper (>= 10),
+ debhelper (>= 11),
  default-jdk,
  javahelper,
  libstylebook-java,
