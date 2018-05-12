@@ -3,3 +3,4 @@
 03_bootclasspath.patch
 04_manifest_classpath.patch
 java10.patch
+getContentDocument.patch
