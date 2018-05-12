@@ -1,3 +1,13 @@
+libxerces2-java (2.11.0-9) unstable; urgency=medium
+
+  * Team upload.
+  * Switch to compat level 11.
+  * Declare compliance with Debian Policy 4.1.4.
+  * Remove Damien Raude-Morvan Marcus Better from Uploaders. (Closes: #889443)
+  * Add java10.patch and fix FTBFS with Java 9 and Java 10. (Closes: #893346)
+
+ -- Markus Koschany <apo@debian.org>  Sat, 12 May 2018 21:55:41 +0200
+
 libxerces2-java (2.11.0-8) unstable; urgency=medium
 
   * Team upload.
